@@ -1,9 +1,10 @@
 {
   "name": "ember-cli-deploy-storybook",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Deploys Storybook as part of an Ember deployment pipeline.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-cli-deploy-plugin"
   ],
   "repository": "",
   "license": "MIT",
@@ -27,6 +28,7 @@
   },
   "dependencies": {
     "ember-cli-babel": "^7.26.3",
+    "ember-cli-deploy-plugin": "^0.2.9",
     "ember-cli-htmlbars": "^5.7.1"
   },
   "devDependencies": {
@@ -35,6 +37,7 @@
     "@embroider/test-setup": "^0.37.0",
     "@glimmer/component": "^1.0.4",
     "@glimmer/tracking": "^1.0.4",
+    "@storybook/storybook-deployer": "^2.8.10",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
     "ember-auto-import": "^1.11.2",
