@@ -1,7 +1,11 @@
 ember-cli-deploy-storybook
 ==============================================================================
 
-[Short description of the addon.]
+This addon deploys a storybook to S3 (and eventually GH, etc), so that it can be
+automated through ember-cli-deploy, and be configured depending on the deployment
+target (so that PRs, prod, staging, etc can all have separate storybooks deployed).
+
+This is WIP and only supports a basic deployment to S3.
 
 
 Compatibility
