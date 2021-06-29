@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-storybook",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Deploys Storybook as part of an Ember deployment pipeline.",
   "keywords": [
     "ember-addon",
