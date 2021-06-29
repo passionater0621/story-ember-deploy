@@ -24,7 +24,6 @@ module.exports = {
         if (ci) {
           ciFlag = '--ci';
         }
-
         return shell.runCommand(
           `npx -p @storybook/storybook-deployer storybook-to-aws-s3 --bucket-path=${bucket} --aws-profile=NONE ${ciFlag} --s3-sync-options="--region=${region} --delete"`,
           true,
