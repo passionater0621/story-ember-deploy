@@ -14,7 +14,7 @@ module.exports = {
         ci: false
       },
 
-      didDeploy: function (context) {
+      didDeploy: function () {
         let bucket = this.readConfig('bucket');
         let region = this.readConfig('region');
         let ci = this.readConfig('ci');
