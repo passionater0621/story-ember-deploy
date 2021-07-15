@@ -32,7 +32,10 @@
     "ember-cli-babel": "^7.26.3",
     "ember-cli-deploy-plugin": "^0.2.9",
     "ember-cli-htmlbars": "^5.7.1",
-    "shell-escape": "0.2.0"
+    "shell-escape": "0.2.0",
+    "dargs": "4.1.0",
+    "rsvp": "^4.8.2",
+    "strip-ansi": "3.0.1"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
